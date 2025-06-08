@@ -1,0 +1,1 @@
+# c019593-2025-essence-festival-frontend
