@@ -4,7 +4,13 @@
   "name": "Node.js",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
   "service": "vue-app",
-  "extensions": ["Vue.volar", "octref.vetur", "dbaeumer.vscode-eslint", "esbenp.prettier-vscode"],
+  "extensions": [
+    "Vue.volar",
+    "octref.vetur",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "ms-vscode.live-server"
+  ],
   "forwardPorts": [3001],
   "appPort": [3001],
   "postCreateCommand": "npm install"
